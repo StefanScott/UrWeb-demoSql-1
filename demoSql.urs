@@ -1,0 +1,9 @@
+val main : unit -> transaction page
+
+(*
+urweb -dbms postgres -db "host=localhost port=5432 user=scott password='pw' dbname=demo_sql" demoSql
+dropdb demo_sql
+createdb demo_sql
+psql -f demo_sql.sql demo_sql
+./demoSql.exe
+*)
